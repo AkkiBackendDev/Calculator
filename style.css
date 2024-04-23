@@ -17,8 +17,8 @@ body{
     padding: 19px;
     border-radius: 18px;
     background: transparent;
-    box-shadow: 0 3px 15px rgba(122, 124, 127, 0.4);
-    background-color: rgb(40, 48, 70);
+    box-shadow: 0 3px 15px rgba(3, 98, 239, 0.4);
+    background-color: rgb(197, 34, 34);
 }
 input{
     width: 360px;
@@ -26,15 +26,15 @@ input{
     border-radius: 8px;
     padding: 28px;
     margin: 11px;
-    box-shadow: 0 3px 15px rgba(122, 124, 127, 0.2);
+    box-shadow: 0 3px 15px rgba(79, 115, 170, 0.2);
     font-size: 50px;
     text-align: right;
     cursor: pointer;
     color: black;
-    background-color: rgb(63, 94, 84) ;
+    background-color: rgb(244, 244, 244) ;
 }
 input::placeholder{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 button{
     width: 68px;
@@ -45,7 +45,7 @@ button{
     background: transparent;
     color: #fff;
     font-size: 24px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.14);
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.14);
     cursor: pointer;
     background-color: rgb(45, 44, 44);
 }
