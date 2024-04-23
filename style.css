@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2c425df3, #3a4452);
+}
+.calculator{
+    border: 2px solid black;
+    padding: 19px;
+    border-radius: 18px;
+    background: transparent;
+    box-shadow: 0 3px 15px rgba(122, 124, 127, 0.4);
+    background-color: rgb(40, 48, 70);
+}
+input{
+    width: 360px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 28px;
+    margin: 11px;
+    box-shadow: 0 3px 15px rgba(122, 124, 127, 0.2);
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(63, 94, 84) ;
+}
+input::placeholder{
+    color: black;
+}
+button{
+    width: 68px;
+    height: 59px;
+    border: none;
+    margin: 12px;
+    border-radius: 20%;
+    background: transparent;
+    color: #fff;
+    font-size: 24px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.14);
+    cursor: pointer;
+    background-color: rgb(45, 44, 44);
+}
+.equalButton{
+    background-color: #cb6c39;
+}
+.oper{
+    color: #60e7a8f1;
+}
+/*----------------------css for small screen-----------------------*/
+@media only screen and (max-width: 600px){
+    .calculator{
+        padding: 14px
+    }
+    input{
+        width: 260px;
+        padding: 18px;
+        margin: 8px;
+        font-size: 36px;
+    }
+    button{
+        width: 50px;
+        height: 41px;
+        margin: 8px;
+        font-size: 17px;
+    }
+}
